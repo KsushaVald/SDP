@@ -29,3 +29,7 @@ Online store layout. Five pages: home, catalog, contacts, cooperation.
 
 Сотрудничество
 Текстовая страница со списками.
+
+Сборака пректа:
+npm run dev - режим разаротки (пака dist).
+npm run build - для хостинга (папка product).
