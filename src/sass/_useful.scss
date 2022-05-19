@@ -1,0 +1,177 @@
+.section-useful {
+  margin-bottom: 71px;
+
+  &__container {
+    position: relative;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 0;
+  }
+
+  &__btn-prev {
+    right: 65px;
+    transform: rotate(180deg);
+  }
+
+  &__btn-next {
+    right: 20px;
+  }
+
+  &__swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    border-radius: 10px;
+    background-color: $color-background;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  &__slide {
+    &-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 33px;
+      padding-bottom: 28px;
+      min-height: 250px;
+    }
+
+    &-text {
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    &-btn {
+      width: 128px;
+    }
+  }
+}
+
+@media (max-width: $breakepoint-first) {
+  .section-useful {
+    &__swiper-slide {
+      min-height: 456px;
+    }
+
+
+    &__slide {
+      &-1 {
+        background-image: url(/img/useful1_1024.jpg);
+      }
+
+      &-2 {
+        background-image: url(/img/useful2_1024.jpg);
+      }
+
+      &-3 {
+        background-image: url(/img/useful3_1024.jpg);
+      }
+
+      &-4 {
+        background-image: url(/img/useful4_1024.jpg);
+      }
+
+      &-5 {
+        background-image: url(/img/useful5_1024.jpg);
+      }
+
+      &-content {
+        min-height: 254px;
+        padding-top: 31px;
+      }
+
+      &-text {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakepoint-third) {
+  .section-useful {
+    &__container {
+      padding-bottom: 48px;
+    }
+
+
+    &__swiper-slide {
+      background-size: 100% 44.5%;
+    }
+
+    &__slide {
+
+      &-content {
+        padding-bottom: 30px;
+      }
+
+      &-1 {
+        background-image: url(/img/useful1.jpg);
+      }
+
+      &-2 {
+        background-image: url(/img/useful2.jpg);
+      }
+
+      &-3 {
+        background-image: url(/img/useful3.jpg);
+      }
+
+      &-4 {
+        background-image: url(/img/useful4.jpg);
+      }
+
+      &-5 {
+        background-image: url(/img/useful5.jpg);
+      }
+    }
+
+    &__btn {
+      top: auto;
+      bottom: 0;
+      left: 52.5%;
+    }
+
+    &__btn-prev {
+      left: 38%;
+    }
+  }
+}
+
+@media (max-width: $breakepoint-xs) {
+  .section-useful {
+
+
+    &__swiper-slide {
+      background-size: contain;
+    }
+
+    &__slide {
+      &-1 {
+        background-image: url(/img/useful1_1024.jpg);
+      }
+
+      &-2 {
+        background-image: url(/img/useful2_1024.jpg);
+      }
+
+      &-3 {
+        background-image: url(/img/useful3_1024.jpg);
+      }
+
+      &-4 {
+        background-image: url(/img/useful4_1024.jpg);
+      }
+
+      &-5 {
+        background-image: url(/img/useful5_1024.jpg);
+      }
+    }
+  }
+}
