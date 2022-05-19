@@ -6,8 +6,9 @@ Online store layout. Five pages: home, catalog, contacts, cooperation.
 2) Каталог,
 3) Страница товара,
 4) Контакты,
-5) Сотрудничество,
-все страницы адаптивные, реализована по макету Figma (pixelPerfect).
+5) Сотрудничество.
+
+Все страницы адаптивные, реализована по макету Figma (pixelPerfect).
 
 Ссылка на хостинг: http://sdp.kvald.tw1.ru/
 
